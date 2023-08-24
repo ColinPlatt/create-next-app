@@ -185,12 +185,12 @@ export default function DashboardPage() {
                                         !(ready && authenticated) || ! hasEmbeddedWallet
                                     }
                                     className="px-4 py-2 text-sm text-white border-none rounded-md bg-violet-600 hover:bg-violet-700">
-                                    Export wallet
+                                    Export wallet Private Keys
                                 </button>
                             ) : (
                                 <button onClick={exportWallet}
                                     className="px-4 py-2 text-sm border rounded-md border-violet-600 hover:border-violet-700 text-violet-600 hover:text-violet-700 disabled:border-gray-500 disabled:text-gray-500 hover:disabled:text-gray-500">
-                                    Export wallet
+                                    Export wallet Private Keys
                                 </button>
                             )
                         }
