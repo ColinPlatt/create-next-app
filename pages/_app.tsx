@@ -34,7 +34,6 @@ function MyApp({Component, pageProps} : AppProps) {
                             'sms',
                             'google',
                             'apple',
-                            'email',
                             'discord',
                             'twitter',
                             'github'
